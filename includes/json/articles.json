@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "link": "https://www.behealthpr.com/impacto-de-la-artritis-psoriasica-en-la-salud-cardiovascular/",
+        "image": "1.jpg",
+        "title": "Impacto de la artritis psoriásica en la salud cardiovascular",
+        "date": "julio 24, 2024"
+    },
+    {
+        "id": 2,
+        "link": "https://www.behealthpr.com/salud-osea-y-artritis-psoriasica-como-manejar-los-efectos-de-la-inflamacion-cronica/",
+        "image": "2.jpg",
+        "title": "Salud ósea y artritis psoriásica: cómo manejar los efectos de la inflamación crónica",
+        "date": "julio 18, 2024"
+    },
+    {
+        "id": 3,
+        "link": "https://www.behealthpr.com/dimensiones-de-la-artritis-psoriasica-en-puerto-rico/",
+        "image": "3.png",
+        "title": "Dimensiones de la artritis psoriásica en Puerto Rico",
+        "date": "julio 17, 2024"
+    },
+    {
+        "id": 4,
+        "link": "https://www.behealthpr.com/relacion-de-la-artritis-psoriasica-y-los-cambios-de-climas/",
+        "image": "4.png",
+        "title": "Relación de la artritis psoriásica y los cambios de climas",
+        "date": "junio 20, 2024"
+    },
+    {
+        "id": 5,
+        "link": "https://www.behealthpr.com/un-analisis-de-la-artritis-psoriasica-en-las-minorias/",
+        "image": "5.png",
+        "title": "Un análisis de la artritis psoriásica en las minorías",
+        "date": "junio 21, 2024"
+    },
+    {
+        "id": 6,
+        "link": "https://www.behealthpr.com/relacion-entre-la-artritis-psoriasica-y-el-sueno/",
+        "image": "6.png",
+        "title": "Relación entre la artritis psoriásica y el sueño",
+        "date": "abril 13, 2024"
+    },
+    {
+        "id": 7,
+        "link": "https://www.behealthpr.com/9-consejos-para-sobrellevar-la-artritis-psoriasica-y-vivir-mejor/",
+        "image": "7.jpg",
+        "title": "9 consejos para sobrellevar la artritis psoriásica y vivir mejor",
+        "date": "mayo 29, 2024"
+    },
+    {
+        "id": 8,
+        "link": "https://www.behealthpr.com/artritis-psoriasica-relacion-entre-el-tabaco-la-obesidad-y-la-enfermedad/",
+        "image": "8.jpg",
+        "title": "Artritis psoriásica, relación entre el tabaco, la obesidad y la enfermedad",
+        "date": "mayo 31, 2024"
+    },
+    {
+        "id": 9,
+        "link": "https://www.behealthpr.com/asi-es-como-la-artritis-psoriasica-transforma-las-unas/",
+        "image": "9.png",
+        "title": "Así es como la artritis psoriásica transforma las uñas",
+        "date": "junio 20, 2024"
+    }
+]

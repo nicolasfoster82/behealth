@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeHealth</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Nunito:wght@600&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="assets/img/logo-chico.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="header-container" id="header">
+        <header class="header">
+            <a href="https://behealthpr.com/"><img src="assets/img/logo-behealth.png" alt="BeHealth logo"
+                    class="logo"></a>
+
+            <button class="open-menu" id="open"><i class='bx bx-menu'></i></button>
+            <nav class="navbar" id="navbar">
+                <button class="close-menu" id="close"><i class='bx bx-x'></i></button>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a class="dropbtn">Nuestro contenido<i class='bx bx-chevron-down'></i></a>
+                        <div class="dropdown-content">
+                            <a href="#articulos-educativos">Articulos educativos</a>
+                            <a href="#abc-de-la-condicion">Abc de la condición</a>
+                            <a href="#capsulas-de-especialistas">Capsulas de especialistas</a>
+                            <a href="#podcast-educativos">Podcast educativos</a>
+                            <a href="#guia-educativa">Guía educativa</a>
+                        </div>
+                    </li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="https://behealthpr.com/">Volver a BeHealth</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div>
+        <div class="banner">
+            <a href="https://www.behealthpr.com/abc-de-la-artritis-psoriasica/" target="_blank"><img class="heartbeat"
+                    src="assets/img/logo.png" alt="Logo hablemos de la artritis psoriasica"></a>
+        </div>
+    </div>
+
+    <div class="container">
+
+
+        <section class="advertisment">
+            <img src="assets/img/screenshots/ad1.png" alt="ad" class="vertical-ad">
+            <img src="assets/img/screenshots/ad15.png" alt="ad" class="vertical-ad-thin">
+
+        </section>
+
+        <section class="main">
+
+            <div class="objetive-container">
+                <div class="subtitle-container-3">
+                    <img src="assets/img/target.png" alt="objetivo icono">
+                    <h2>Nuestro objetivo</h2>
+                </div>
+                <p>
+                    Hablemos de Artritis Psoriásica es un campaña que tiene como objetivo destacar la importancia de
+                    reconocer la relación entre el dolor y la piel en aquellos que viven con la condición. Es
+                    fundamental que las personas comprendan que la Artritis Psoriásica no solo causa dolor articular,
+                    sino que también puede manifestarse a través de problemas cutáneos, como erupciones y lesiones.
+                </p>
+            </div>
+
+            <div class="horizontal-ad-container">
+
+                <img src="assets/img/screenshots/ad4.png" alt="ad" class="horizontal-ad">
+
+                <div class="squared-ad-container">
+                    <img src="assets/img/screenshots/ad6.png" alt="ad" class="squared-ad advertisment-mobile">
+                </div>
+            </div>
+
+            <div class="faqs-container">
+                <div class="subtitle-container-2">
+                    <img src="assets/img/faq.png" alt="icono preguntas frecuentes ">
+                    <h2>preguntas frecuentes</h2>
+                </div>
+                <div id="faqs-content"></div>
+            </div>
+
+            <div class="articles-container" id="articulos-educativos">
+                <div class="subtitle-container-1">
+                    <img src="assets/img/article.png" alt="icono Articulos educativos ">
+                    <h2>Articulos educativos</h2>
+                </div>
+
+                <div class="cards-container">
+                    <div id="card-container" class="card-container"></div>
+                    <button id="load-more" class="load-more">Cargar más</button>
+                </div>
+
+            </div>
+
+            <div class="horizontal-ad-container">
+                <img src="assets/img/screenshots/ad7.png" alt="ad" class="horizontal-ad  ">
+
+                <div class="squared-ad-container">
+                    <img src="assets/img/screenshots/ad11.png" alt="ad" class="squared-ad advertisment-mobile">
+                </div>
+            </div>
+
+            <div class="galery-container" id="abc-de-la-condicion">
+                <div class="subtitle-container-3">
+                    <img src="assets/img/galery.png" alt="icono Abc de la condición ">
+                    <h2>Abc de la condición</h2>
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slides"></div>
+                    </div>
+                    <div class="pagination">
+                        <button class="prev"><i class='bx bx-left-arrow-alt'></i></button>
+                        <button class="next"><i class='bx bx-right-arrow-alt'></i></button>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal" id="imageModal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                </div>
+            </div>
+
+            <div class="videos-container" id="capsulas-de-especialistas">
+                <div class="subtitle-container-1">
+                    <img src="assets/img/video.png" alt="icono Capsulas de especialistas ">
+                    <h2>Capsulas de especialistas</h2>
+                </div>
+
+                <div class="videos-header">
+                    <h3>Lista de reproducción</h3>
+                    <p>5 vídeos</p>
+                </div>
+                <div id="videos-content" class="videos-content"></div>
+            </div>
+
+            <div class="horizontal-ad-container">
+                <img src="assets/img/screenshots/ad8.png" alt="ad" class="horizontal-ad  ">
+
+                <div class="squared-ad-container">
+                    <img src="assets/img/screenshots/ad10.png" alt="ad" class="squared-ad advertisment-mobile">
+                </div>
+            </div>
+
+            <div class="podcast-container" id="podcast-educativos">
+                <div class="subtitle-container-3">
+                    <img src="assets/img/podcast.png" alt="icono podcast educativos">
+                    <h2>Podcast educativos</h2>
+                </div>
+
+                <div class="podcast-content">
+                    <iframe style="border-radius:8px;"
+                        src="https://open.spotify.com/embed/episode/70cCMK2UNbag8hSz2l1ADh?utm_source=generator"
+                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+
+            </div>
+
+            <div class="guide-container" id="guia-educativa">
+                <div class="subtitle-container-2">
+                    <img src="assets/img/guide.png" alt="icono Guia educativa">
+                    <h2>Guía educativa</h2>
+                </div>
+
+                <div class="guide-content">
+                    <a href="assets/pdf/folleto-artritis-psoriasica.pdf" target="_blank">
+                        <img src="assets/img/guide-image.png" alt="Guide image">
+                    </a>
+                </div>
+
+
+                <div class="download-button-container">
+                    <button href="">Descargue la guía aquí <i class='bx bxs-download'></i></button>
+                </div>
+            </div>
+
+            <div class="horizontal-ad-container">
+                <img src="assets/img/screenshots/ad4.png" alt="ad" class="horizontal-ad">
+
+                <div class="squared-ad-container">
+                    <img src="assets/img/screenshots/ad9.png" alt="ad" class="squared-ad">
+                </div>
+            </div>
+
+            <div class="thank-container">
+                <div class="subtitle-container-1">
+                    <img src="assets/img/gratitude.png" alt="icono Agradecimiento">
+                    <h2>Agradecemos a </h2>
+                </div>
+
+                <div class="logo-abbvie-container">
+                    <a href="https://www.abbvie.com.ar/" target="_blank">
+                        <img src="assets/img/abbvie.png" alt="abbvie logo" class="logo-abbvie">
+                    </a>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="advertisment">
+            <img src="assets/img/screenshots/ad5.png" alt="ad" class="vertical-ad">
+            <img src="assets/img/screenshots/ad16.png" alt="ad" class="vertical-ad-thin">
+
+            <div class="squared-ad-container">
+                <img src="assets/img/screenshots/ad3.png" alt="ad" class="squared-ad advertisment-mobile">
+            </div>
+        </section>
+    </div>
+
+
+    <div class="footer-container">
+        <div class="mail">
+            <h2>¿Está interesado en recibir las últimas novedades de BeHealth?</h2>
+            <h3>¡Suscríbase para recibir nuestro newsletter aquí!<i class='bx bxs-hand-down'></i></h3>
+            <form action="" class="suscribe-form">
+                <input type="text" name="mail" placeholder="ej: mimail@gmail.com" required>
+                <input class="send-button" type="submit" name="enviar" value="Suscribirse">
+            </form>
+        </div>
+
+        <div class="social" id="contacto">
+            <h2>Contactenos a través de nuestras redes</h2>
+            <div class="social-container">
+                <a href="https://www.facebook.com/behealthpr" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://x.com/behealthpr" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/company/behealthpr" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.youtube.com/channel/UCK6zDR-kZzmNc8WOp1NlXPA" target="_blank"><i
+                        class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/behealthpr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.tiktok.com/@behealthpr" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-container">
+        <p>© Copyright 2023, Todos los derechos reservados | BeHealth |</p>
+    </div>
+
+    <!--scripts-->
+    <script src="includes/js/header.js"></script>
+    <script src="includes/js/questions.js"></script>
+    <script src="includes/js/articles.js"></script>
+    <script src="includes/js/carrousel.js"></script>
+    <script src="includes/js/videos.js"></script>
+</body>
+
+</html>
